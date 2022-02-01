@@ -52,10 +52,10 @@ function EmailContainer() {
 
         {/* search bar */}
         <div className='bg-white flex justify-start items-center col-span-5 row-[span_1_/_span_10]'>
-            <span className="z-10 text-slate-400 leading-snug font-normal text-center absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
+            <span className="z-10 text-slate-400 leading-snug font-normal text-center absolute bg-transparent rounded text-xl items-center justify-center w-10 pl-8 py-3">
               <i className="fas fa-search"></i>
             </span>
-            <input type="search" className='h-full w-2/3 px-9 py-2 focus:outline-none focus:border-[#204fff] text-sm text-slate-500' placeholder='Search for messages' onChange={searchHandler}/>
+            <input type="search" className='h-full w-2/3 px-16 py-2 focus:outline-none focus:border-[#204fff] text-base text-slate-500' placeholder='Search for messages' onChange={searchHandler}/>
             <div className='bg-white h-full w-1/3 flex justify-end items-center pr-8'><button type='button' className='bg-[#204fff] px-2 py-1.5 rounded-3xl text-sm text-white hover:scale-105 transition delay-75'>+ new message</button></div>
         </div> 
 

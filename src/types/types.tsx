@@ -8,13 +8,15 @@ export type mailsPrototype = {
     attachments: string[],
     footer: string,
     id: number,
-    readStatus: "read" | "unread" 
+    readStatus: "read" | "unread",
+    name: string
   }
 
 export const mails:mailsPrototype[] = [
     {
         id: 1001,
         readStatus: "unread",
+        name: "Cayon Talor",
       sender: "cayontalor@gmail.com",
       profile: "https://randomuser.me/api/portraits/women/86.jpg",
       time: "08.30 AM",
@@ -26,6 +28,7 @@ export const mails:mailsPrototype[] = [
     {
         id: 1002,
         readStatus: "unread",
+        name: "Stancey Patterson",
       sender: "stacey.patterson@example.com",
       profile: "https://randomuser.me/api/portraits/women/80.jpg",
       time: "03.48 PM",
@@ -37,6 +40,7 @@ export const mails:mailsPrototype[] = [
     {
         id: 1003,
         readStatus: "read",
+        name: "Brad Gibson",
       sender: "brad.gibson@example.com",
       profile: "https://randomuser.me/api/portraits/women/85.jpg",
       time: "04.25 PM",
@@ -48,6 +52,7 @@ export const mails:mailsPrototype[] = [
     {
         id: 1004,
         readStatus: "read",
+        name: "Christine Stanley",
       sender: "christine.stanley@example.com",
       profile: "https://randomuser.me/api/portraits/women/84.jpg",
       time: "07.15 AM",
@@ -59,6 +64,7 @@ export const mails:mailsPrototype[] = [
     {
         id: 1005,
         readStatus: "unread",
+        name: "Sean Morgan",
       sender: "sean.morgan@example.com",
       profile: "https://randomuser.me/api/portraits/women/83.jpg",
       time: "11.45 AM",
@@ -70,6 +76,7 @@ export const mails:mailsPrototype[] = [
     {
         id: 1006,
         readStatus: "read",
+        name: "Johny Rodriguez",
       sender: "johnny.rodriguez@example.com",
       profile: "https://randomuser.me/api/portraits/women/82.jpg",
       time: "04.00 PM",

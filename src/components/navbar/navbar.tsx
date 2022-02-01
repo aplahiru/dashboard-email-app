@@ -4,7 +4,7 @@ import logo from '../../resources/logo.png';
 function Navbar() {
   return (
       <header className='h-full sticky'>
-        <nav className='grid grid-rows-[200px_minmax(100px,_1fr)_150px] h-full lg:w-20 bg-[#204fff]'>
+        <nav className='grid grid-rows-[200px_minmax(100px,_1fr)_100px] h-full lg:w-20 bg-[#204fff]'>
           <div className='flex justify-center mt-8'>
             <img src={logo} className='h-12 w-12' alt="" />
           </div>

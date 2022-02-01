@@ -3,14 +3,14 @@ import Profile from '../profile/profile';
 
 function EmailNavigator() {
   return (
-        <div className='h-full grid grid-rows-[300px_minmax(200px,_1fr)_200px]'>
+        <div className='h-full grid grid-rows-[350px_minmax(200px,_1fr)_220px]'>
             {/* profile */}
-            <div className='flex-nowrap pt-10 pb-10 border-b-2 border-b-slate-100'>
+            <div className='flex items-end pb-10 border-b-2 border-b-slate-100'>
                 <Profile/>
             </div>
             <div className='grid grid-rows-[repeat(7, minmax(80px,_1fr))]'>
                 
-                <div className='flex pl-5 pb-3 text-sm items-center text-slate-600'>Messages</div>
+                <div className='flex pt-6 pb-2 pl-5 text-sm items-center tracking-wide text-slate-600'>Messages</div>
                 {/* inbox */}
                 <div className='flex group pl-5 pr-3 justify-between items-center cursor-pointer hover:text-[#420099] text-[#4f1796] hover:border-l-2 border-l-2 hover:border-[#0032e8] border-[#204fff] hover:bg-slate-200 bg-slate-200'>
                     <div className='capitalize text-sm'>
