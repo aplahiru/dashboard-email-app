@@ -108,8 +108,8 @@ function MailPreviewer(props:mailPreviwerProps) {
                 
             </div>
             {/* reply textarea and attachment with send button */}
-            <div className='bg-gray-100 row-span-1 w-full flex justify-start items-end'>
-                <textarea className='w-4/6 h-full px-9 py-6 border-t-2 bg-gray-100 border-t-slate-100 resize-none focus:outline-none focus:border-2 focus:rounded-sm focus:border-[#204fff] text-xs text-slate-600' placeholder='Type  to  answer...' name="message"/>
+            <div className='bg-gray-50 row-span-1 w-full flex justify-start items-end'>
+                <textarea className='w-4/6 h-full px-9 py-6 border-t-2 bg-gray-50 border-t-slate-100 resize-none focus:outline-none focus:border-2 focus:rounded-sm focus:border-[#204fff] text-[14] text-slate-600' placeholder='Type  to  answer...' name="message"/>
                 <label className='h-full w-1/6 flex flex-col justify-center items-center cursor-pointer'>
                     <i className="fas fa-paperclip text-gray-300  text-3xl"/>
                     <input className='hidden' type="file" name="attachment" />

@@ -29,10 +29,10 @@ function MailMessage(props:mailMessageProps) {
                     <span className='w-1/2 truncate'>{mail.name}</span>
                     <span className='w-1/2 truncate text-right'>{mail.time}</span>
                 </div>
-                <div className='flex items-center pr-2 capitalize col-span-5 row-span-1 font-semibold'>
+                <div className='flex items-center pr-2 capitalize col-span-5 row-span-1 font-semibold text-[15px'>
                     <span className={selectedStyle !== "bg-gray-50" ? "text-[#0032e8] group-hover:text-[#0032e8] truncate" : "group-hover:text-[#0032e8] truncate" }>{mail.header}</span>
                     {
-                        mail.readStatus === "unread" && <i className="fas fa-circle text-xs pl-2 text-[#204fff]"/>
+                        mail.readStatus === "unread" && <i className="fas fa-circle text-[10px] pl-2 text-[#204fff]"/>
                     }
                     {
                         mail.attachments.length >  0 && <i className="fas fa-paperclip text-slate-400 pl-2"></i>

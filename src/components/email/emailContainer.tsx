@@ -52,11 +52,11 @@ function EmailContainer() {
 
         {/* search bar */}
         <div className='bg-white flex justify-start items-center col-span-5 row-[span_1_/_span_10]'>
-            <span className="z-10 text-slate-400 leading-snug font-normal text-center absolute bg-transparent rounded text-xl items-center justify-center w-10 pl-8 py-3">
+            <span className="z-10 text-slate-300 leading-snug font-normal text-center absolute bg-transparent rounded text-xl items-center justify-center w-10 pl-10 py-3">
               <i className="fas fa-search"></i>
             </span>
-            <input type="search" className='h-full w-2/3 px-16 py-2 focus:outline-none focus:border-[#204fff] text-base text-slate-500' placeholder='Search for messages' onChange={searchHandler}/>
-            <div className='bg-white h-full w-1/3 flex justify-end items-center pr-8'><button type='button' className='bg-[#204fff] px-2 py-1.5 rounded-3xl text-sm text-white hover:scale-105 transition delay-75'>+ new message</button></div>
+            <input type="search" className='h-full w-2/3 pl-[78px] pr-14 py-2  border-l-2 border-l-slate-200 focus:outline-none focus:border-[#204fff] text-base text-slate-500' placeholder='Search for messages' onChange={searchHandler}/>
+            <div className='bg-white h-full w-1/3 flex justify-end items-center pr-8'><button type='button' className='bg-[#204fff] px-6 py-1.5 rounded-3xl text-base text-white hover:scale-105 transition delay-75 capitalize tracking-wide'><span className='text-lg whitespace-nowrap font-semibold pr-1'>+</span>  new  message</button></div>
         </div> 
 
         {/* mail list viewer */}
