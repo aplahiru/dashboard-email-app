@@ -102,7 +102,7 @@ function MailPreviewer(props:mailPreviwerProps) {
                         </div>
                     </div>
                     <hr />
-                    <div className='mt-4 pt-4 text-xs text-slate-400'>
+                    <div className='mt-4 pt-4 text-xs text-slate-300'>
                         {selectedMail?.footer}
                     </div>
                 
