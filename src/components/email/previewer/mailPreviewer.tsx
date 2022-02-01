@@ -79,7 +79,7 @@ function MailPreviewer(props:mailPreviwerProps) {
 
                 <div className='bg-white pt-7 pb-4 mb-4'>
                     <p className='font-medium text-base text-slate-900 pb-2'>Re: {selectedMail?.header}</p>
-                    <div className='text-slate-500 text-sm'>
+                    <div className='text-slate-400 text-sm'>
                         <i className="far fa-clock mr-2"></i>
                         <span>Today {selectedMail?.time}</span>
                     </div>

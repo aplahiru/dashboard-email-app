@@ -25,7 +25,7 @@ function MailMessage(props:mailMessageProps) {
                 <div className='row-span-6 p-2'>
                     <img className='rounded-full mx-auto  p-0.5 w-10 h-10' src={mail.profile} alt="" />
                 </div>
-                <div className='flex mt-2 justify-between items-end pr-6 truncate col-span-5 row-span-1 text-xs text-slate-500'>
+                <div className='flex mt-2 justify-between items-end pr-6 truncate col-span-5 row-span-1 text-xs text-slate-400'>
                     <span className='w-1/2 truncate'>{mail.name}</span>
                     <span className='w-1/2 truncate text-right'>{mail.time}</span>
                 </div>
